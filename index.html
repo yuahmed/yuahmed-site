@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>One Page Portfolio</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-theme.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:300,400,700"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header class="hero">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-6 col-xs-12">
+          <nav>
+            <div id="menu-toggle">
+              <div class="hamburger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+              </div>
+              <div class="cross">
+                <span class="line"></span>
+                <span class="line"></span>
+              </div>
+            </div>
+            <ul class="main-nav">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Manifesto</a></li>
+            </ul>
+          </nav>
+          <!-- <a href="#" class="menu"><img src="assets/menu.png"></a> -->
+          <div class="hero-text">
+            <h1><span>Hi, I am</span><br>Yumna Ahmed.</h1>
+            <h3>Software Engineer at Davidson College.</h3>
+            <a href="#" class="btn btn-lg btn-primary">Know More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="case-study">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h4 class="sub-heading">Class of '25</h4>
+          <h1 class="heading purple"><span class="purple">pursuing</span> design <br>and computer science.</h1>
+          <!-- Swiper -->
+          <div class="swiper-container client-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide client-box">
+                <img src="assets/logo-1.png" class="client-logo">
+                <h3 class="text-left title">Design Study: Needfinding</h3>
+                <p class="text-left tag">HCI, Design, Case Study</p>
+                <p class="text-left"><a href="#">Know More &#8594;</a></p>
+              </div>
+              <div class="swiper-slide client-box">
+                <img src="assets/logo-2.png" class="client-logo">
+                <h3 class="text-left title">Health Design: Prototyping</h3>
+                <p class="text-left tag">HCI, Prototype, Design Thinking</p>
+                <p class="text-left"><a href="#">Know More &#8594;</a></p>
+              </div>
+              <div class="swiper-slide client-box">
+                <img src="assets/logo-3.png" class="client-logo">
+                <h3 class="text-left title">Design Study: Accessbility</h3>
+                <p class="text-left tag">Accessible Design, HCI, Critic</p>
+                <p class="text-left"><a href="#">Know More &#8594;</a></p>
+              </div>
+              <div class="swiper-slide client-box">
+                <img src="assets/logo-1.png" class="client-logo">
+                <h3 class="text-left title">Re-Design and Extend</h3>
+                <p class="text-left tag">Design, HCI, Physical</p>
+                <p class="text-left"><a href="#">Know More &#8594;</a></p>
+              </div>
+              <div class="swiper-slide client-box">
+                <img src="assets/logo-2.png" class="client-logo">
+                <h3 class="text-left title">Website Makeover</h3>
+                <p class="text-left tag">Design, HCI, Website</p>
+                <p class="text-left"><a href="#">Know More &#8594;</a></p>
+              </div>
+              <div class="swiper-slide client-box">
+                <img src="assets/logo-2.png" class="client-logo">
+                <h3 class="text-left title">Design for Understanding</h3>
+                <p class="text-left tag">Design, Data, Analysis</p>
+                <p class="text-left"><a href="#">Know More &#8594;</a></p>
+              </div>
+              <div class="swiper-slide client-box">
+                <img src="assets/logo-2.png" class="client-logo">
+                <h3 class="text-left title">Design for Another World</h3>
+                <p class="text-left tag">VR, HCI, Design</p>
+                <p class="text-left"><a href="#">Know More &#8594;</a></p>
+              </div>
+            </div>
+
+          </div>
+          <!-- Add Arrows -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container-fluid">
+      <div class="row footer">
+        <div class="col-md-12 text-center">
+          <h1>Yumna<br><span>Ahmed</span></h1>
+          <!-- <ul class="social-links">
+            <li><a href="#"><img src="assets/behance.png"></a></li>
+            <li><a href="#"><img src="assets/dribbble.png"></a></li>
+            <li><a href="#"><img src="assets/twitter.png"></a></li>
+            <li><a href="#"><img src="assets/github.png"></a></li>
+          </ul> -->
+        </div>
+      </div>
+      <div class="row sub-footer">
+        <div class="col-md-12 text-center">
+          <p>
+            <a href="#">Home</a>
+            <a href="#">Portfolio</a>
+            <a href="#">About</a>
+            <a href="#">Manifesto</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Some Javascript -->
+  <script src="js/jquery-2.1.1.js"></script>
+  <script src="js/swiper.jquery.min.js"></script>
+  <!-- Initialize Client Swiper -->
+  <script>
+    var swiper1 = new Swiper('.client-swiper', {
+      slidesPerView: 3,
+      paginationClickable: true,
+      nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev',
+      spaceBetween: 60,
+      // Responsive breakpoints
+      breakpoints: {
+        // when window width is <= 320px
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          pagination: '.swiper-pagination'
+        },
+        // when window width is <= 480px
+        480: {
+          slidesPerView: 1,
+          spaceBetween: 20
+        },
+        // when window width is <= 640px
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 30
+        }
+      }
+    });
+    // Initialize Testimonial Swiper
+    var swiper2 = new Swiper('.testimonial-swiper', {
+      slidesPerView: 3,
+      pagination: '.swiper-pagination',
+      paginationClickable: true,
+      spaceBetween: 30,
+      grabCursor: true,
+      freeMode: true,
+      breakpoints: {
+        // when window width is <= 320px
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        // when window width is <= 480px
+        480: {
+          slidesPerView: 1,
+          spaceBetween: 10
+        },
+        // when window width is <= 640px
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 10
+        }
+      }
+    });
+  </script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  <script>
+    // Counterup
+    $('.counter').counterUp({
+      time: 1000
+    });
+
+    // Main Navigation
+    $('#menu-toggle').click(function () {
+      $(this).toggleClass('open'),
+        $('.main-nav').toggleClass('show-it');
+    })
+  </script>
+
+</body>
+
+</html>
